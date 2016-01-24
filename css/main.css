@@ -1,0 +1,70 @@
+* { margin: 0; padding: 0; }
+body { box-sizing: border-box; font-weight: 400; }
+
+h1 { font-size: 1.75em; font-weight: 400; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1.1em; }
+p, a, input, li { font-size: 1em; }
+
+a { color: #777; text-decoration: none; }
+li { list-style: none; border: none; }
+
+.wrapper-section { border: 1px solid red; width: 100%; }
+.wrapper-section:after, .cf:after { content: ''; display: block; clear: both; }
+.wrapper-content:after { content: ''; display: block; clear: both; }
+
+.wrapper-content { max-width: 960px; margin: 0 auto; position: relative; }
+
+nav, section, aside, article, footer { box-sizing: border-box; }
+
+/* fixed navigation bar */
+
+.wrapper-section.nav-section { background: url(img/city_1825x950.jpg) center center no-repeat; background-size: cover; }
+
+.nav-section { background-color: rgba(0,0,0,.2); color: #fff; }
+
+.nav-infobar > a { color: #fff; display: inline-block; padding: 4px 12px 4px 4px; }
+.nav-infobar > a:nth-child(1n + 2) { background-color: #ea0606; float: right; padding-left: 12px; text-transform: uppercase; }
+.nav-infobar ~ hr { display: block; border: 1px solid rgba(69, 69, 69, 0.52); margin-top: 1em; }
+
+/*  logo   */
+
+.logo { margin-top: 10px; position: relative; width: 180px; }
+.logo i { font-size: 2.75em; position: absolute; }
+.logo span:first-of-type { background-color: rgba(31, 31, 31, 1); border-radius: 50px; display: block; height: 27px; position: absolute; left: 18px; width: 32px; }
+.logo h1 { color: rgb(234, 6, 6); left: 24px; position: absolute; }
+.logo span:last-of-type { font-size: .8em; left: 78px; position: absolute; top: 27px; }
+
+/*  nav-hero  */
+
+.hero { position: relative; }
+
+.nav-hero > ul { float: right; line-height: 60px; }
+.nav-hero > ul > li { display: block; float: left; position: relative; }
+.nav-hero > ul > li > a { color: #fff; padding: 6px 12px; transition: background-color .6s; }
+
+.nav-hero > ul > li > a:hover { background-color: #ea0606; }
+
+.hero div:nth-child(2) { box-sizing: border-box; float: left; width: 50%; }
+.hero div:nth-child(3) { background-color: rgba(0,0,0,0.6); box-sizing: border-box; margin: 60px 3% 60px 0; padding: 16px; float: right; width: 47%; }
+
+.hero div > h2 { background-color: rgba(0,0,0,0.6); font-weight: 300; line-height: 1.3em; letter-spacing: .05em; margin: 120px 105px 45px 0; padding: 16px; text-transform: uppercase; }
+.hero div > a.btn { display: block; color: #ea0606; background-color: #111; margin: 0 0 140px 10px; padding: 8px 24px; text-transform: uppercase; width: 25%; }
+
+.hero div > p { font-weight: 300; line-height: 1.3em; letter-spacing: .05em; text-transform: uppercase; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
