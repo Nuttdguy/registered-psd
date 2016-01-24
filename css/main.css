@@ -47,20 +47,33 @@ nav, section, aside, article, footer { box-sizing: border-box; }
 .nav-hero > ul > li > a:hover { background-color: #ea0606; }
 
 .hero div:nth-child(2) { box-sizing: border-box; float: left; width: 50%; }
-.hero div:nth-child(3) { background-color: rgba(0,0,0,0.6); box-sizing: border-box; margin: 60px 3% 60px 0; padding: 16px; float: right; width: 47%; }
+.hero div:nth-child(3) { background-color: rgba(0,0,0,0.6); box-sizing: border-box; margin: 60px 3% 60px 0; padding: 1em 1.5em; float: right; width: 37%; }
 
 .hero div > h2 { background-color: rgba(0,0,0,0.6); font-weight: 300; line-height: 1.3em; letter-spacing: .05em; margin: 120px 105px 45px 0; padding: 16px; text-transform: uppercase; }
 .hero div > a.btn { display: block; color: #ea0606; background-color: #111; margin: 0 0 140px 10px; padding: 8px 24px; text-transform: uppercase; width: 25%; }
 
-.hero div > p { font-weight: 300; line-height: 1.3em; letter-spacing: .05em; text-transform: uppercase; }
+.hero div > p { font-size: 1.2em; font-weight: 700; line-height: 1.5em; letter-spacing: .02em; padding: .75em 0 1em; text-align: left; text-transform: uppercase; }
 
+.hero .btn-step { background-color: #6d6d6d; border-right: none; box-sizing: border-box; color: #fff; float: left; font-size: .8em; line-height: 2em; position: relative; padding: 2px 2px 2px 16px; text-transform: uppercase; width: 29.5%; }
+.hero .step a:before { border-left: 12px solid #ea0606; border-top: 13px solid transparent; border-bottom: 13px solid transparent; content: '';  display: block; position: absolute; left: 100%; z-index: 3; }
 
+.hero .step li:first-of-type > a:first-of-type { background-color: #ea0606; }
+.hero .step li:nth-of-type(2) > a:first-of-type:before { border-left: 12px solid #6d6d6d; border-top: 13px solid transparent; border-bottom: 13px solid transparent; }
+.hero .step li:nth-of-type(3) > a:first-of-type:before { border-left: 12px solid #6d6d6d; border-top: 13px solid transparent; border-bottom: 13px solid transparent; }
 
+.hero .step { padding-bottom: 16px; }
+.hero div hr { display: block; border: 1px solid rgba(203, 195, 195, 0.5); margin-top: 1em; }
 
+.hero div p ~ p { font-size: .8em; font-weight: 300; letter-spacing: 0.12em; padding-bottom: 2em; text-align: center; text-shadow: 2px 4px 5px #454040; }
 
+.hero div form { font-size: .7em; padding-bottom: 2.5em; text-align: left; text-transform: uppercase; }
+.hero div label { margin-right: 10px; }
+input[type="checkbox"] { opacity: 0.5; margin: 0 6px 0 0; vertical-align: middle; }
 
+.get-registered { box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.6); text-align: center; }
+.hero form + button { background: #ea0606; border: none; margin: 24px auto; text-align: center; padding: 8px 32px; text-transform: uppercase; box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.6); }
 
-
+/*  about   */
 
 
 
