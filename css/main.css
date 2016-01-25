@@ -10,7 +10,7 @@ p, a, input, li { font-size: 1em; }
 a { color: #777; text-decoration: none; }
 li { list-style: none; border: none; }
 
-.wrapper-section { border: 1px solid red; width: 100%; }
+.wrapper-section { width: 100%; }
 .wrapper-section:after, .cf:after { content: ''; display: block; clear: both; }
 .wrapper-content:after { content: ''; display: block; clear: both; }
 
@@ -75,6 +75,20 @@ input[type="checkbox"] { opacity: 0.5; margin: 0 6px 0 0; vertical-align: middle
 
 /*  about   */
 
+.about ul { width: 100%; }
+.about li { float: left; padding: 12px 0; text-align: center; width: 25%; }
+.about img { height: 74px; width: auto; }
+
+/*  video   */
+
+.welcome { color: #555; font-weight: 300; padding: 32px 0; }
+.welcome video { box-sizing: border-box; padding: 0 32px; height: 260px; width: 50%; object-fit: fill;  }
+.welcome div { width: 50%; float: right; }
+
+.welcome h2 { padding-bottom: 1em; text-align: center; letter-spacing: .03em; text-transform: uppercase;}
+.welcome p { font-size: .9em; line-height: 1.6em; }
+.welcome p:nth-child(4) { padding: 16px 0; }
+.welcome a { background-color: #ea0606; color: #fff; display: inline-block; padding: 12px ; text-align: center; text-transform: uppercase; width: 50%; }
 
 
 
