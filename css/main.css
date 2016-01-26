@@ -1,4 +1,4 @@
-* { margin: 0; padding: 0; }
+*, *:before, *:after { margin: 0; padding: 0; }
 body { box-sizing: border-box; font-weight: 400; }
 
 h1 { font-size: 1.75em; font-weight: 400; }
@@ -324,7 +324,92 @@ input[type="checkbox"] { opacity: 0.5; margin: 0 6px 0 0; vertical-align: middle
 	width: 8.5%;
 }
 
+/* offer section */
 
+.offer h2 {
+	text-transform: uppercase;
+}
+
+.offer h2,
+.offer h2 + p {
+	text-align: center;
+}
+
+.offer h2 + p {
+	font-size: .9em;
+	margin: 1em 0;
+}
+
+.offer article {
+	float: left;
+	padding: 20px;
+	width: 33.33%;
+}
+
+.offer article > span {
+	border: 1px solid rgba(109, 109, 109, 0.6);
+	box-sizing: border-box;
+	display: block;
+	line-height: 200px;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+}
+
+.offer img {
+	vertical-align: middle;
+	width: 65%;
+}
+
+.offer article h3 {
+/*	border-top: 1px solid rgba(109, 109, 109, 0.6);*/
+	border-right: 1px solid rgba(109, 109, 109, 0.6);
+	border-left:  1px solid rgba(109, 109, 109, 0.6);
+	font-size: .9em;
+	font-weight: 700;
+	color: red;
+	padding: 1.5em .5em;
+	text-transform: uppercase;
+}
+
+.offer article h3:after {
+	content: '';
+	border-bottom: 1px solid red;
+	display: block;
+	margin-top: .5em;
+	width: 10%;
+}
+
+.offer article p {
+	border-right: 1px solid rgba(109, 109, 109, 0.6);
+	border-left:  1px solid rgba(109, 109, 109, 0.6);
+	border-bottom:  1px solid rgba(109, 109, 109, 0.6);
+	font-size: .8em;
+	padding: 0 4px;
+}
+
+.offer .btn-register {
+	border-right: 1px solid rgba(109, 109, 109, 0.6);
+	border-left:  1px solid rgba(109, 109, 109, 0.6);
+	border-bottom:  1px solid rgba(109, 109, 109, 0.6);
+	display: block;
+	padding: 4px 4px;
+}
+
+.offer a {
+	color: rgba(109, 109, 109, 0.9);
+	font-size: .8em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.offer a:after {
+	content: "\02c3";
+	color: #fff;
+	margin-left: 8px;
+	padding: 4px 6px;
+	background-color: rgba(17, 17, 17, 0.71);
+}
 
 
 
