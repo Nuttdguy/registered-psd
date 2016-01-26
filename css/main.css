@@ -91,6 +91,149 @@ input[type="checkbox"] { opacity: 0.5; margin: 0 6px 0 0; vertical-align: middle
 .welcome a { background-color: #ea0606; color: #fff; display: inline-block; padding: 12px ; text-align: center; text-transform: uppercase; width: 50%; }
 
 
+/*  choose  */
+
+.wrapper-section.choose {
+	position: relative;
+} 
+
+.wrapper-section.overlay {
+	background: linear-gradient(to bottom, rgba(0,0,0,.6) 0%, rgba(55,55,55, .4) 100%), url(img/business.jpg);
+	background-size: cover;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	-webkit-filter: blur(3px);
+	 -moz-filter: blur(2px);
+		 -o-filter: blur(2px);
+		-ms-filter: blur(2px);
+        filter: blur(2px);
+}
+
+.choose {
+	color: #fff;
+}
+
+.choose h2, 
+.choose h2 + p {
+	padding-top: 1.5em;
+	text-align: center;
+}
+
+.choose-row {
+	display: block;
+	font-weight: 300;
+	margin-bottom: 3em;
+	padding-top: 2em;
+	width: 100%;
+}
+
+.choose-row p {
+	display: inline-block;
+	font-size: .8em;
+	padding-top: .5em;
+	vertical-align: middle;
+}
+
+.col-1 { display: block; float: left; width: 8.33%; }
+.col-2 { display: block; float: left; width: 16.66%; }
+.col-2r { display: block; float: right; width: 16.66%; }
+.col-8 { display: block; float: left; width: 66.66% ; }
+
+.heading-left {
+	text-align: right;
+}
+
+.heading-right {
+	text-align: left;
+}
+
+.choose-middle-row-1 {
+	display: block;
+	position: relative;
+	min-height: 120px;
+}
+
+.choose-middle-row-1 .fa-group,
+.choose-middle-row-1 .fa-money {
+	position: absolute;
+	border: 2px solid #007;
+	border-radius: 50%;
+/*	display: inline-block;*/
+	line-height: 5.5em;
+	margin: 0 10px;
+	text-align: center;
+	width: 80px;
+}
+
+.choose-middle-row-1 span {
+	font-size: 2.5em;
+	position: absolute;
+	top: 19%;
+	left: 28%;
+	z-index: 1;
+}
+
+.choose-middle-row-1 .horizontal-left {
+	position: absolute;
+	top: 40%;
+	left: 29.15%;
+	width: 5%;
+}
+
+.choose-middle-row-1 .horizontal-left-45 {
+	position: absolute;
+	top: 41.5%;
+	left: 34.25%;
+	transform: rotate(35deg);
+	transform-origin: 3% 50%;
+	width: 12.5%;
+}
+
+/*
+.choose-middle-row-1 .spacer {
+	position: relative;
+	left: 16%;
+	display: block;
+	float: left;
+	height: 6em;
+	width: inherit;
+}
+*/
+
+.choose-middle-row-1 .horizontal-right-45 {
+	position: absolute;
+	top: 41.5%;
+	left: 64.5%;
+	transform: rotate(-35deg) rotate(180deg);
+	transform-origin: 3% 50%;
+	width: 12.5%;
+}
+
+.choose-middle-row-1 .horizontal-right {
+	position: absolute;
+	top: 40%;
+	left: 65%;
+	width: 5%;
+}
+
+.choose-middle-row-1 .fa-money {
+	left: 72.5%
+}
+
+.choose-middle-row-1 .last-dot {
+	font-size: 2.5em;
+	position: absolute;
+	top: 19%;
+	left: 69.5%;
+}
+
+
+
+
+
+
+
 
 
 
