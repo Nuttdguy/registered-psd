@@ -243,9 +243,8 @@ input[type="checkbox"] { opacity: 0.5; margin: 0 6px 0 0; vertical-align: middle
 /*  choose middle row 2 */
 
 .choose-row-2 {
-	display: block;
+	padding-top: .75em;
 	font-weight: 300;
-	margin-bottom: 0;
 	width: 100%;
 }
 
@@ -286,7 +285,7 @@ input[type="checkbox"] { opacity: 0.5; margin: 0 6px 0 0; vertical-align: middle
 	display: block;
 	font-weight: 300;
 	margin-bottom: 2em;
-	padding-top: 1.75em;
+	padding-top: 2em;
 	padding-bottom: 2.75em;
 	width: 100%;
 }
@@ -496,11 +495,147 @@ input[type="checkbox"] { opacity: 0.5; margin: 0 6px 0 0; vertical-align: middle
 }
 
 
+/*  info section  */
+
+.info-section {
+	background: linear-gradient(to bottom, rgba(0,0,0, .9) 0%, rgba(55,55,55, 1) 1000%);
+}
+
+.info-overlay {
+	background: linear-gradient(to bottom, rgba(0,0,0, .9) 0%, rgba(55,55,55, 1) 1000%), url(img/world-map.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+}
+
+.info {
+	position: relative;
+	z-index: 1;
+}
+
+.info aside {
+	width: 25%;
+	float: left;
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+
+.info .main-links h3,
+.info .help h3,
+.info .contact h3,
+.info .subscribe h3 {
+	border-bottom: 3px solid #555;
+	color: #fff;
+	font-size: .7em;
+	font-weight: 300;
+	letter-spacing: .05em;
+	line-height: 2.3em;
+	position: relative;
+	margin-bottom: 1.2em;
+	text-transform: uppercase;
+	width: 75%;
+}
+
+.info .main-links h3:after,
+.info .help h3:after,
+.info .contact h3:after,
+.info .subscribe h3:after {
+	content: "";
+	display: block;
+	border: 1px solid red;
+	position: absolute;
+	width: 35%;
+}
+
+.info aside li {
+	color: #fff;
+	padding: .5em;
+	font-size: .7em;
+}
+
+.info aside a {
+	color: #fff;
+}
+
+.info .contact i {
+	color: #111;
+	background-color: #fff;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	margin-right: 1em;
+	text-align: center;
+	border-radius: 50px;
+}
+
+.subscribe p {
+	color: #fff;
+	font-size: .7em;
+	width: 80%;
+	margin-bottom: 1em;
+}
+
+.subscribe input {
+	font-size: .7em;
+	position: relative;
+	margin-bottom: 2em;
+	height: 34px;
+	width: 90%;
+}
+
+.subscribe .fa-send-o {
+	background-color: red;
+	color: #fff;
+	line-height: 32px;
+	right: 20px;
+	position: absolute;
+	text-align: center;
+	width: 34px;
+	height: 36px;
+}
+
+.subscribe li {
+	border: 1px solid red;
+	line-height: 24px;
+	float: left;
+	text-align: center;
+	transition: all .6s;
+	width: 42px;
+	height: 24px;
+}
+
+.subscribe li:hover {
+	background: red;
+}
+
+.info .subscribe h3 {
+	width: 90%;
+}
+
+/*  footer  */
+
+footer p {
+	line-height: 2.7em;
+	font-size: .7em;
+	text-align: center;
+}
+
+footer super {
+	font-size: .4em;
+	vertical-align: top;
+}
 
 
+/* btn */
 
-
-
+.btn:hover {
+	background: rgb(129, 7, 7)!important;
+	transition: all .6s;
+}
 
 
 
